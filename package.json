@@ -4,10 +4,24 @@
   "description": "Raspberry pi music",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tak Tran <contact@tutaktran.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:taktran/pi-music.git"
+  },
+  "keywords": [
+    "rpi",
+    "raspberry-pi",
+    "music",
+    "media",
+    "speaker",
+    "mp3",
+    "lame"
+  ],
   "dependencies": {
     "lame": "^1.2.4",
     "speaker": "^0.3.0"
