@@ -1,0 +1,15 @@
+{
+  "name": "pi-music",
+  "version": "0.0.1",
+  "description": "Raspberry pi music",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tak Tran <contact@tutaktran.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lame": "^1.2.4",
+    "speaker": "^0.3.0"
+  }
+}
